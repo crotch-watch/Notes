@@ -21,6 +21,7 @@ Executes the constructor function with the given arguments, binding `newInstanc
 4. ***`function`*** automatically return the empty object ***`{}`*** and inside the function body we can operate on ***`{}`*** and modify it.
 
 ![[constructor_example1.png]]
+[**CODE**](https://codesandbox.io/s/lively-leaf-6fs97g?file=/src/OOP/Constructor_example1.js)
 
 > **NOTE** : convention is to create a property on ***`{}`*** which we pass as argument in **constructor**. In our case ***`firstName`*** and ***`birthYear`***
 
