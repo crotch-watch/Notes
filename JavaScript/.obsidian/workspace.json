@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OOP/OOP in Js.md",
+                "file": "OOP/Prototype.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OOP/OOP in Js.md",
+                "file": "OOP/Prototype.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OOP/OOP in Js.md",
+                "file": "OOP/Prototype.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OOP/OOP in Js.md"
+                "file": "OOP/Prototype.md"
               }
             }
           }
@@ -147,14 +147,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "df06eb669b381d1a",
+  "active": "0620f536952d4472",
   "lastOpenFiles": [
+    "OOP/assets/prototype_exxample1.png",
+    "OOP/Constructor Functions.md",
+    "OOP/Prototype.md",
+    "OOP/OOP in Js.md",
+    "OOP/OOP.md",
+    "OOP/assets/constructor_example1 (1).png",
+    "OOP/assets/constructor_example1.png",
     "OOP/assets/OOP_js2.png",
     "OOP/assets/OOP_js2.png.crdownload",
     "OOP/assets/OOP_js1.png",
     "Untitled.md",
-    "OOP/OOP in Js.md",
-    "OOP/OOP.md",
     "OOP/assets/polymorphism_intro.png",
     "OOP/assets/polymorphism_intro.png.crdownload",
     "Abstraction.md",
@@ -176,9 +181,7 @@
     "Behind The Scenes Working/Scope Chain.md",
     "Behind The Scenes Working/assets/primitives_reference_mutation.png",
     "Behind The Scenes Working/assets/primitives_reference_mutation.png.crdownload",
-    "Behind The Scenes Working/assets/variable_storage.png",
     "Behind The Scenes Working/assets/variable_storage.png.crdownload",
-    "Behind The Scenes Working/assets/arguments_object_example1.png",
     "Behind The Scenes Working/Call Stack.md",
     "Behind The Scenes Working/Compilation.md",
     "Behind The Scenes Working/JS Runtime.md",
@@ -186,7 +189,6 @@
     "Behind The Scenes Working/JavaScipt Behind The Scenes.md",
     "Dummy1/const.md",
     "Untitled 1.md",
-    "Behind The Scenes Working/assets/this_example_1.png",
     "www.google.co.in.md",
     "Variable_Environment_intro 1.png.md",
     "Behind The Scenes Working/Variable Environment/Untitled.md"

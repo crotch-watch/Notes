@@ -8,7 +8,7 @@ We can only use **Function Declarations** and **Function Expressions** since arr
 
 When we call a ***`function`*** with ***`new`*** following 4 steps take place
 
-1. Creates a blank, plain JavaScript object. For convenience, let's call it ***`newInstance`.
+1. Creates a blank, plain JavaScript object. For convenience, let's call it ***`newInstance`***.
 
 2. ***`{}`*** is linked to a ***`prototype`***
 
@@ -27,4 +27,4 @@ Executes the constructor function with the given arguments, binding `newInstanc
 
 we can use ***`instanceof`*** operator to check whether an object is **instance of** provided **constructor**. Properties created on all **instances** of a **contructor** are called **Instance Properties**.
 
-> **NOTE** : Don't define methods inside of the constructor functions since they will be created everytime the constructor is called and result in duplicacy. Instead they should be inside ***`prototype`***.
+> **NOTE** : Don't define methods inside of the constructor functions since they will be created everytime the constructor is called and results in duplicacy. Instead they should be inside ***`prototype`***.
