@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "50a1349d3f31056b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OOP/Object.create.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OOP/Accessor Properties.md",
+                "file": "OOP/Object.create.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OOP/Accessor Properties.md",
+                "file": "OOP/Object.create.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OOP/Accessor Properties.md"
+                "file": "OOP/Object.create.md"
               }
             }
           }
@@ -147,10 +160,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "df06eb669b381d1a",
+  "active": "0620f536952d4472",
   "lastOpenFiles": [
-    "OOP/Prototypal Inheritance & Prototype Chain.md",
+    "OOP/assets/objectCreate_example1.png",
+    "OOP/assets/objectCreate1.png",
+    "OOP/assets/objectCreate1.png.crdownload",
     "OOP/Accessor Properties.md",
+    "OOP/Object.create.md",
+    "OOP/Prototypal Inheritance & Prototype Chain.md",
     "OOP/assets/accessor_properties1.png",
     "OOP/assets/accessor_properties1 (1).png",
     "OOP/Prototype.md",
@@ -168,7 +185,6 @@
     "OOP/assets/constructor_example1.png",
     "OOP/assets/OOP_js2.png",
     "OOP/assets/OOP_js2.png.crdownload",
-    "OOP/assets/OOP_js1.png",
     "OOP/assets/polymorphism_intro.png.crdownload",
     "Abstraction.md",
     "OOP/assets/encapsulation_intro.png.crdownload",
@@ -177,7 +193,6 @@
     "OOP/assets",
     "Behind The Scenes Working/This Keyword.md",
     "OOP/OOP_intro1.png.crdownload",
-    "OOP",
     "Behind The Scenes Working/Variable Environment.md",
     "Behind The Scenes Working/Primitive & Reference Types.md",
     "Behind The Scenes Working/JavaScript Engine And Runtime.md",
