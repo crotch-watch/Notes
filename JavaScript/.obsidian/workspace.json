@@ -13,38 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OOP/Prototypal Inheritance & Prototype Chain.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "68126f3fa5504120",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OOP/ES6 Classes.md",
+                "file": "OOP/Accessor Properties.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "3f0aea1f80dcecfd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OOP/Constructor Functions.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OOP/ES6 Classes.md",
+                "file": "OOP/Accessor Properties.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OOP/ES6 Classes.md",
+                "file": "OOP/Accessor Properties.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OOP/ES6 Classes.md"
+                "file": "OOP/Accessor Properties.md"
               }
             }
           }
@@ -172,17 +147,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "68126f3fa5504120",
+  "active": "df06eb669b381d1a",
   "lastOpenFiles": [
-    "OOP/assets/es6_classes1.png",
     "OOP/Prototypal Inheritance & Prototype Chain.md",
+    "OOP/Accessor Properties.md",
+    "OOP/assets/accessor_properties1.png",
+    "OOP/assets/accessor_properties1 (1).png",
+    "OOP/Prototype.md",
     "OOP/ES6 Classes.md",
+    "OOP/Constructor Functions.md",
+    "OOP/assets/es6_classes1.png",
     "OOP/assets/prototypal_inheritance2.png",
     "OOP/assets/prototypal_inheritance2.png.crdownload",
-    "OOP/Prototype.md",
     "OOP/assets/prototypal_inheritance1.png",
     "OOP/assets/prototypal_inheritance1.png.crdownload",
-    "OOP/Constructor Functions.md",
     "OOP/assets/prototype_exxample1.png",
     "OOP/OOP in Js.md",
     "OOP/OOP.md",
@@ -191,12 +169,9 @@
     "OOP/assets/OOP_js2.png",
     "OOP/assets/OOP_js2.png.crdownload",
     "OOP/assets/OOP_js1.png",
-    "OOP/assets/polymorphism_intro.png",
     "OOP/assets/polymorphism_intro.png.crdownload",
     "Abstraction.md",
-    "OOP/assets/encapsulation_intro.png",
     "OOP/assets/encapsulation_intro.png.crdownload",
-    "OOP/assets/abstraction_intro.png",
     "OOP/assets/abstraction_intro.png.crdownload",
     "OOP/assets/classes_intro.png.crdownload",
     "OOP/assets",
