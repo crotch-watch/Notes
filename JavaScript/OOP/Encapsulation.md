@@ -23,15 +23,17 @@ Following the convention we can provide **public interface** for movements but *
 
 There are ***`Static`*** version of above mentioned properties.  
 
-**Fields** have to be **declared**  in ***`class`*** body's top level.
+**Fields** have to be **declared**  in ***`class`*** body's top level. **Fields** are set on ***`class`*** and **properties** are on object. Fields become **properties** as soon as we call the ***`class`***. Inside ***`constructor`*** we call them properties since ***`constructor`*** sets properties on **object**. 
+
+Public instance fields can set alongside properties in ***`constructor`*** but they will be overridden regardless so it is redundant. But we would require it in case of **Private fields** since they can't be set inside ***`constructor`***. 
 
 ![[Encapsution_2.png]]
 [**CODE**](https://codesandbox.io/s/lively-leaf-6fs97g?file=/src/OOP/Encapsulation/example2.js)
 
-> **NOTE** : ***`get`*** accessor's name can't be same private field's name, unlike shown in [Example](#example).
+> **NOTE** : ***`get`*** accessor's name can't be same private field's name, unlike shown in [Example](#Example).
 
 **Hash names** can't be accessed outside of the ***`class`*** but can be seen via **developer tools**.
 
-**Fields** behave like normal variables inside class can be **reassigned** like ***`let`*** and can be accessed via **scope chain** but only inside the ***`class`***.
+**Fields** behave like normal variables inside class can be **reassigned** like ***`let`*** and can be accessed via **scope chain** but only inside the ***`class`***. 
 
 Private methods are not added to **prototype** they are kept in JavaScript's **internal property** ***`[[PrivateMethods]]`***. Private methods are meant to only be accessed in the class and not outside.
