@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OOP/Encapsulation.md",
+                "file": "Mapty/Project Planning.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OOP/Encapsulation.md",
+                "file": "Mapty/Project Planning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OOP/Encapsulation.md",
+                "file": "Mapty/Project Planning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OOP/Encapsulation.md"
+                "file": "Mapty/Project Planning.md"
               }
             }
           }
@@ -184,10 +184,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b7ec59adb96d0bc3",
+  "active": "0620f536952d4472",
   "lastOpenFiles": [
-    "OOP/ES6 Classes.md",
+    "Mapty/assets",
+    "Untitled",
+    "Mapty/assets/flowchart1.png",
+    "Mapty/flowchart1.png.crdownload",
+    "Mapty/assets/features1.png",
+    "Mapty/features1.png.crdownload",
+    "Mapty/assets/user_stories1.png",
+    "Mapty/Project Planning.md",
+    "Mapty/screenshot-www.udemy.com-2023.10.28-10_40_04.png.crdownload",
+    "Untitled.md",
     "OOP/Encapsulation.md",
+    "Mapty",
+    "OOP/ES6 Classes.md",
     "OOP/assets/Encapsution_2.png",
     "OOP/Inheritance.md",
     "OOP/Encapsution_1.png",
@@ -203,21 +214,13 @@
     "OOP/assets/objectCreate_example1.png",
     "OOP/assets/objectCreate1.png",
     "OOP/assets/objectCreate1.png.crdownload",
-    "OOP/assets/accessor_properties1.png",
-    "OOP/assets/accessor_properties1 (1).png",
     "OOP/Constructor Functions.md",
-    "OOP/assets/es6_classes1.png",
     "OOP/assets/prototypal_inheritance2.png.crdownload",
     "OOP/assets/prototypal_inheritance1.png.crdownload",
     "OOP/assets/OOP_js2.png.crdownload",
     "OOP/assets/polymorphism_intro.png.crdownload",
     "Abstraction.md",
-    "OOP/assets/encapsulation_intro.png.crdownload",
-    "OOP/assets/abstraction_intro.png.crdownload",
-    "OOP/assets/classes_intro.png.crdownload",
-    "OOP/assets",
     "Behind The Scenes Working/This Keyword.md",
-    "OOP/OOP_intro1.png.crdownload",
     "Behind The Scenes Working/Variable Environment.md",
     "Behind The Scenes Working/Primitive & Reference Types.md",
     "Behind The Scenes Working/JavaScript Engine And Runtime.md",
@@ -228,8 +231,6 @@
     "Behind The Scenes Working/JS Runtime.md",
     "Behind The Scenes Working/Arguments Object.md",
     "Behind The Scenes Working/JavaScipt Behind The Scenes.md",
-    "Dummy1/const.md",
-    "Untitled 1.md",
-    "www.google.co.in.md"
+    "Dummy1/const.md"
   ]
 }
