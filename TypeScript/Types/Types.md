@@ -2,7 +2,7 @@
 
 ## **Introduction**
 
-Providing or defining type to a **variable** is called **type annotation**. We can't change ***`type`*** once it is assigned.
+Providing or defining type to a **variable** is called **type annotation**. We can't change ***`type`*** once it is assigned. 
 
 > **NOTE** : we read ***typeErrors*** from **right to left** example :- type ***`number`*** is not assignable to type ***`boolean`***.
 
@@ -14,29 +14,25 @@ A ***`type`*** is a definition assigned to a **variable** that defines the thing
 
 ## ***`any`***
 
-Can be of literally any **type** from above shown diagram. This can be considered as default type in JavaScript. We use TypeScript to avoid ***`any`*** type and be precise with our **types**.
-
-***`any`*** can **reassigned** to any other type **without any restriction**.
-
-It is used as a last resort, when we don't know the **type** of incoming data.
-
-Compiler option is linked to ***`any`***, ***`noImplicitAny`*** which throw error if we have annotated ***`any`*** type to  a value.
+- Can be of literally any **type** from above shown diagram. This can be considered as default type in JavaScript. We use TypeScript to avoid ***`any`*** type and be precise with our **types**.
+- ***`any`*** can **reassigned** to any other type **without any restriction**.
+- It is used as a last resort, when we don't know the **type** of incoming data.
+- Compiler option is linked to ***`any`***, ***`noImplicitAny`*** which throw error if we have annotated ***`any`*** type to  a value.
 
 > **NOTE** : Trying to annotate type **after declaring** the variable results in **error**/**awkward behaviour**.
 
 ## ***`unknown`***
 
 It is similar to ***`any`*** in the sense that we don't have **exact type** of **data** stored in the variable.
-It is better than ***`any`*** as in ***`any`*** **TypeScript** stops caring about the **type** but in ***`unknown`*** we are implying that the value is **unknown** as of now but in future it **can be available**.
+It is better than ***`any`*** as in ***`any`*** **TypeScript** stops caring about the **type** but in ***`unknown`*** we are implying that the value is **unknown** as of now but in future it **can be available**. 
 
-TypeScript will throw an **error** till type is defined a **bit precisely** than ***`unknown`*** this way we can initially expect an ***`unknown`*** type but then **narrow** it down for operating on it.
+TypeScript will throw an **error** till type is defined a **bit precisely** than ***`unknown`*** this way we can initially expect an ***`unknown`*** type but then **narrow** it down for operating on it. 
 
 ![[unknown_example1.png]]
 
 TypeScript **forces** us to check what **type** of data is in variable which has been annotated ***`unknown`*** and **handle it accordingly** but ***`any`*** **bypasses** all type checking.
 
 ## ***`boolean`***
-
 Only ***`Boolean`*** values can be stored in the variable. Values can be ***`true || false`*** or be the **result** of an **expression** which **returns** a Boolean value.
 
 type ***`null`*** or ***`undefined`*** are not considered falsy values hence can't be assigned.
@@ -48,10 +44,8 @@ type ***`null`*** or ***`undefined`*** are not considered falsy values hence can
 ## **`bigint`**
 
 ***`bigint`*** can be declared in 2 ways :-
-
-1. Via constructor
-
-2. adding ***`n`*** suffix. but target has to be at least ES2020.
+1. Via constructor 
+2.  adding ***`n`*** suffix. but target has to be at least ES2020.
 
 Need for ***`bigint`*** is in JavaScript we can only represent **whole numbers** till **2^53** and operating on numbers larger than that becomes **unsafe**.
 
@@ -67,21 +61,21 @@ example :-  ***`const number = 85`*** since ***`const`*** doesn't change, **type
 **Simple** type annotations should be inferred by TS since explicit declaration makes them redundant.
 Only explicitly add types when needed.
 
-## ***`Object`***
+## ***`Object`*** 
 
-It contains of **object literal** syntax and **property name** with their respective type is declared, then we describe the **structure** of object. The object has to **follow** the **defined structure** and if properties are **missing** then TS will throw an **error** saying object needs all property names and should match their defined types.
+It contains of **object literal** syntax and **property name** with their respective type is declared, then we describe the **structure** of object. The object has to **follow** the **defined structure** and if properties are **missing** then TS will throw an **error** saying object needs all property names and should match their defined types. 
 
 ![[object_example1.png]]
 
 For optional properties add ***`?`*** prefix before semi-colon. ***`prop?: string`***
 
-## **Type Aliasing**
+## **Type Alias**
 
 ![[typeAlias_example1.png]]
 
 We can **define** types **inline** with object but we can't reuse the type definition elsewhere without typing it again. Therefore we can store types using ***`type`*** keyword, then we can alias our structure into a type which we can name and use elsewhere. we can assign **alias** by simple annotation.
 
-> **NOTE** : it can be considered a type expression
+> **NOTE** : it can be considered a type expression 
 
 ## **Union Types**
 
@@ -94,3 +88,73 @@ Multiple type **aliases**  can be unionized by piping these **aliases** and then
 
 **Primitive**
 With primitives it acts as **Logical OR** but for types.
+
+## **Intersection Types**
+
+These are complete **exhaustive combination** of all **unique properties** and **common properties** of intersected types.
+
+> **NOTE** : Unlike **union types** these require us to have all unique properties to be explicitly mentioned. Intersection types results in a ***`never`*** when intersected types are primitives.
+
+## **Index Signature**
+
+![[index_signatures1.png]]
+
+Sometimes you don’t know all the names of a type’s properties ahead of time, but you do know the shape of the values.
+
+In those cases you can use an index signature to describe the types of possible values.
+
+Only some types are allowed for index signature properties: ***`string`***, ***`number`***, ***`symbol`***, template string patterns, and union types consisting only of these.
+
+While string index signatures are a powerful way to describe the **dictionary** pattern, they also enforce that all properties match their return type. This is because a string index declares that ***`obj.property`*** is also available as ***`obj["property"]`***. In the following example, ***`status`***  type does not match the string index’s type, and the type checker gives an error:
+
+![[index_signatures2.png]]
+
+However, properties of different types are acceptable if the index signature is a union of the property types:
+
+![[index_signatures3.png]]
+
+## **Array**
+
+![[array1.png]]
+
+> **NOTE** : As a rule of thumb try to keep array of only one type and not a union because then we would have to test whether element inside is of which type.
+
+## **Tupple**
+
+These are heterogeneous arrays which have a defined structure.
+
+![[tupple1.png]]
+
+## **Readonly**
+
+Constructs a type with all properties of **Type** set to ***`readonly`***, meaning the properties of the constructed type cannot be reassigned.
+
+![[readonly1.png]]
+
+> **Note** :  Example given in **Tupple** can still can **mutate** the array, by making it ***`readonly`***  array we can ensure the length of the array since it can't be changed.
+
+## ***`null`*  and   *`undefined`***
+
+- ***`undefined`*** in JS refers to a value that has not been defined as of yet.
+- ***`null`*** expresses a lack of identification, indicating that a variable points to no object. In APIs, ***`null`*** is often retrieved in a place where an object can be expected but no object is relevant.
+
+### **Non-null Assertion Operator (Postfix *`!`*)**
+
+TypeScript also has a special syntax for removing ***`null`*** and ***`undefined`*** from a type without doing any **explicit checking**. Writing ***`!`*** after any expression is effectively a **type assertion** that the value isn’t ***`null`*** or ***`undefined`***:
+
+![[null_undefined1.png]]
+
+## ***`void`* and *`never`***
+
+***`void`*** represents the **return value** of functions which **don’t return** a value. It’s the **inferred type** any time a function doesn’t have any ***`return`*** statements, or doesn’t return any **explicit value** from those return statements.
+
+> **NOTE** : only value that can assigned to type ***`void`*** is ***`undefined`***. 
+
+The ***`never`*** type represents values which are **never observed**. In a **return type**, this means that the function throws an **exception** or **terminates execution** of the program. 
+
+> **NOTE** : **Code** below the function whose return type is ***`never`*** will be marked as unreachable code, since it will **never** complete it's execution.
+
+![[void_never1.png]]
+
+> **NOTE** : ***`never`*** also appears when TypeScript determines there’s nothing left in a union.
+

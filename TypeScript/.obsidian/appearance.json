@@ -1,4 +1,6 @@
 {
   "accentColor": "",
-  "cssTheme": "Obsidian Nord"
+  "cssTheme": "Obsidian Nord",
+  "textFontFamily": "",
+  "monospaceFontFamily": "JetBrains Mono"
 }
