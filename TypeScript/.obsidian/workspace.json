@@ -148,6 +148,12 @@
   },
   "active": "dbe5b28f84bade94",
   "lastOpenFiles": [
+    "Types/assets/recursive6.png",
+    "Types/assets/recursive5.png",
+    "Types/assets/recursive4.png",
+    "Types/assets/recursive3.png",
+    "Types/assets/recursive2.png",
+    "Types/assets/recursive1.png",
     "Types/assets/void_never1.png",
     "Types/assets/null_undefined1.png",
     "Tupple.md",
@@ -155,13 +161,7 @@
     "Types/assets/readonly1.png",
     "Types/assets/tupple1.png",
     "Types/assets/array1.png",
-    "Types/assets/index_signatures3.png",
-    "Types/assets/index_signatures2.png",
     "2023-11-03.md",
-    "Types/assets/index_signatures1.png",
-    "Types/assets/union_example1.png",
-    "Types/assets/typeAlias_example1.png",
-    "Types/assets/object_example1.png",
     "Types/assets",
     "Types/all_types.png.crdownload"
   ]
