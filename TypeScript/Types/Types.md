@@ -210,3 +210,24 @@ In this situation, you can use a ***type assertion** to specify a more specifi
 
 Sometimes this rule can be too conservative and will disallow more complex coercions that might be valid. If this happens, you can use two assertions, first to ***`any`*** (or ***`unknown`*** ), then to the desired type:
 ***`const a = expression as unknown as T`***
+
+## **Literal Types**
+
+These are the type which are the literally a string or a number. These restrict our options to  assign a value into a variable to only defined string | number | boolean.
+
+We define these types similar to the other types we just annotate the value instead of the type.
+***`type LiteralsUnion = 10 | 20 | "Hello" | false`***
+***`let correct: LiteralsUnion = 10`***
+***`let wrong: LiteralsUnion = 12`***  any other values will throw an error.
+
+## **Function Type**
+
+We can use the  ***`Function`*** i.e. ***`type func = Function`*** but that does not provide any specifics of the functions whether it be the parameters or return type. Therefore we can annotate the signature for a function.
+
+***`type func = (arg:1 string, arg2: number) => string`***
+
+### **Optional Parameters**
+
+If we do not require ***`arg2`*** to be explicitly available to us in order to execute the function then we can add it as an optional parameter, otherwise if we just dont pass the argument then we will get an error.
+
+***`type func = (arg1: string, arg2?: number) => string`*** by prefixing the type annotating of ***`arg2`*** with ***`?`*** we make it an optional parameter.
