@@ -9,6 +9,9 @@ When you declare a ***`function`***, you can add type annotations after ***`each
 ![[functions1.png]]
 
 In order to add **optional parameter** we append ***`?`*** after declare the **parameter's name**.
+
+![[optional_params1.png]]
+
 ### **Return Type Annotations**
 
 You can also add return type annotations. Return type annotations appear after the parameter list:
