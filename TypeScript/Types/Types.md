@@ -220,14 +220,3 @@ We define these types similar to the other types we just annotate the value inst
 ***`let correct: LiteralsUnion = 10`***
 ***`let wrong: LiteralsUnion = 12`***  any other values will throw an error.
 
-## **Function Type**
-
-We can use the  ***`Function`*** i.e. ***`type func = Function`*** but that does not provide any specifics of the functions whether it be the parameters or return type. Therefore we can annotate the signature for a function.
-
-***`type func = (arg:1 string, arg2: number) => string`***
-
-### **Optional Parameters**
-
-If we do not require ***`arg2`*** to be explicitly available to us in order to execute the function then we can add it as an optional parameter, otherwise if we just dont pass the argument then we will get an error.
-
-***`type func = (arg1: string, arg2?: number) => string`*** by prefixing the type annotating of ***`arg2`*** with ***`?`*** we make it an optional parameter.

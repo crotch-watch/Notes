@@ -13,6 +13,18 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Functions/Functions.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "278f5ffe505c2ee7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Types/Types.md",
                 "mode": "source",
                 "source": false
@@ -85,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Types/Types.md",
+                "file": "Functions/Functions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Types/Types.md",
+                "file": "Functions/Functions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Types/Types.md"
+                "file": "Functions/Functions.md"
               }
             }
           }
@@ -148,19 +160,26 @@
   },
   "active": "dbe5b28f84bade94",
   "lastOpenFiles": [
+    "Types/Types.md",
+    "Functions/Functions.md",
+    "Functions/assets/optional_params1.png",
+    "Functions/assets/functions1.png",
+    "Functions/assets/functions_overiew2.png",
+    "Functions/assets/functions_overiew2.png.crdownload",
+    "Functions/assets/functions_overview1.png",
+    "Functions/assets/functions_overview1.png.crdownload",
+    "Functions/assets",
+    "Untitled",
+    "Functions",
+    "Types/Untitled.md",
+    "Untitled.md",
     "Types/assets/recursive6.png",
     "Types/assets/recursive5.png",
     "Types/assets/recursive4.png",
     "Types/assets/recursive3.png",
     "Types/assets/recursive2.png",
     "Types/assets/recursive1.png",
-    "Types/assets/void_never1.png",
-    "Types/assets/null_undefined1.png",
     "Tupple.md",
-    "Types/Types.md",
-    "Types/assets/readonly1.png",
-    "Types/assets/tupple1.png",
-    "Types/assets/array1.png",
     "2023-11-03.md",
     "Types/assets",
     "Types/all_types.png.crdownload"
