@@ -1,6 +1,6 @@
 # **Functions**
 
-### **Parameter Type Annotations**
+## **Parameter Type Annotations**
 
 When you declare a ***`function`***, you can add type annotations after ***`each parameter`*** to declare what types of parameters the function accepts. Parameter type annotations go after the parameter name:
 
