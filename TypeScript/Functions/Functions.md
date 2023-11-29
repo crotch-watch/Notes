@@ -34,3 +34,11 @@ The syntax ***`(greet: string) => void`*** means a function with one parameter
 We can type annotate any variable where function is being stored as a value whether it is **function  expression** or **arrow function**.
 
 ![[function_type_expression1.png]]
+
+## Call Signatures
+
+In JavaScript, functions can have **properties** in addition to being **callable**. However, the function type expression syntax **doesn’t allow** for **declaring properties**. If we want to describe something callable with properties, we can write a **call signature** in an object type:
+
+> **NOTE** : Here we are annotating ***`function`*** as  a callable object.
+
+![[call_signature1.png]]
