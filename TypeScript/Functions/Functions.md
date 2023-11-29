@@ -22,3 +22,15 @@ Much like variable type annotations, you **usually** don’t need a return type 
 ![[optional_params1.png]]
 
 > NOTE: in above example wherever we are annotating types we can also annotate with type aliases both **Parameters** and **Return Type**
+
+## **Function Type Expressions**
+
+The simplest way to describe a function is with a **function type expression**. These types are **syntactically** similar to arrow functions:
+
+***`type GreetFunction = (greet: string) => void;`***
+
+The syntax ***`(greet: string) => void`*** means a function with one parameter, named ***`greet`***, of type ***`string`***, that doesn’t have a return value. Just like with function declarations
+
+We can type annotate any variable where function is being stored as a value whether it is **function  expression** or **arrow function**.
+
+![[function_type_expression1.png]]
