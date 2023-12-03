@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functions/Functions.md",
+                "file": "Generics/Generics.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Functions/Functions.md",
+                "file": "Generics/Generics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Functions/Functions.md",
+                "file": "Generics/Generics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Functions/Functions.md"
+                "file": "Generics/Generics.md"
               }
             }
           }
@@ -160,27 +160,29 @@
   },
   "active": "dbe5b28f84bade94",
   "lastOpenFiles": [
+    "Types/Types.md",
+    "Generics/Generics.md",
+    "Generics/Assets/identity3.png",
+    "Generics/Assets/identity2.png",
+    "Generics/Assets/identity1.png",
+    "Generics/Assets",
+    "Generics/New folder",
+    "Functions/Functions.md",
+    "Generics",
     "Functions/assets/call_signature1.png",
     "Functions/assets/function_type_expression1.png",
     "Functions/assets/Aditya's Notebook.url",
     "Functions/assets/optional_params1.png",
-    "Functions/Functions.md",
-    "Types/Types.md",
     "Functions/assets/functions1.png",
     "Functions/assets/functions_overiew2.png",
     "Functions/assets/functions_overiew2.png.crdownload",
     "Functions/assets/functions_overview1.png",
     "Functions/assets/functions_overview1.png.crdownload",
     "Functions/assets",
-    "Untitled",
     "Functions",
     "Types/Untitled.md",
     "Untitled.md",
     "Types/assets/recursive6.png",
-    "Types/assets/recursive5.png",
-    "Types/assets/recursive4.png",
-    "Types/assets/recursive3.png",
-    "Types/assets/recursive2.png",
     "Tupple.md",
     "2023-11-03.md",
     "Types/assets",
