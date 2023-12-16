@@ -33,3 +33,17 @@ Then TCP/IP socket connection is established which is a communication protocol s
 1. Start line
 2. HTTP request headers are fields which describe the request.
 3. Request body which is the data we send to the server.
+
+![[BTS_web.png]]
+
+Server processes the request and sends a response which is an HTTP response which also has a format :-
+
+1. Start line
+2. HTTP response headers containing information about the response.
+3. Response body containing data we requested from the server.
+
+TCP - Transmission Control Protocol
+It divides the request/response into smaller chunks which are called packets because sending it as a single chunk is not practical as there is a severe traffic and once the data is received on the other end it puts the request together.
+
+IP - Internet Protocol
+It controls the routing of the packets and makes sure they reach their desired address. Request/response packets are sent via different routes.
