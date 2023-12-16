@@ -16,3 +16,7 @@ Certain operations take longer to finished execution like timers and HTTP reques
 Example shows ***addEventListener*** itself does not turn the code asynchronous,  ***img.src = "dog.jpg"***  is loading the image in the background and this task is asynchronous hence it is deferred into the future by JS. 
 
 ![[async_4.png]]
+
+## **API**
+
+![[async_5.png]]
