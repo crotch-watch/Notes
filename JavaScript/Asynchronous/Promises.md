@@ -20,3 +20,16 @@ Example shows ***addEventListener*** itself does not turn the code asynchronous,
 ## **API**
 
 ![[async_5.png]]
+## **How Web Works**
+
+When browser(client) needs data from another server it sends a request to the server and server responds, this is known as request response model or client server architecture.
+
+Every URL has 3 constituents ***http/https*** which is the protocol. Then we have the domain name finally the resource we want to access
+
+IP address is identifier of website not domain name, firstly URL is sent to the DNS server to retrieve its IP address this process is called DNS Lookup. DNS server contains the all names and it returns IP address which is sent back to the browser.
+
+Then TCP/IP socket connection is established which is a communication protocol subsequently client sends an HTTP request to the server, format of HTTP request :-
+
+1. Start line
+2. HTTP request headers are fields which describe the request.
+3. Request body which is the data we send to the server.
