@@ -1,4 +1,4 @@
-## **Asynchronous Introduction**
+# **Asynchronous Introduction**
 
 JS is single threaded meaning it can't simultaneously execute multiple instructions, until one line has executed superseding instructions await it's completion, it is blocking the second instruction.
 Synchronous code means code will execute line by line or sequentially.
@@ -13,37 +13,6 @@ Certain operations take longer to finished execution like timers and HTTP reques
 
 ![[async_3.png]]
 
-Example shows ***addEventListener*** itself does not turn the code asynchronous,  ***img.src = "dog.jpg"***  is loading the image in the background and this task is asynchronous hence it is deferred into the future by JS. 
+Example shows ***addEventListener*** itself does not turn the code asynchronous,  ***img.src = "dog.jpg"***  is loading the image in the background and this task is asynchronous hence it is deferred into the future by JS.
 
 ![[async_4.png]]
-
-## **API**
-
-![[async_5.png]]
-## **How Web Works**
-
-When browser(client) needs data from another server it sends a request to the server and server responds, this is known as request response model or client server architecture.
-
-Every URL has 3 constituents ***http/https*** which is the protocol. Then we have the domain name finally the resource we want to access
-
-IP address is identifier of website not domain name, firstly URL is sent to the DNS server to retrieve its IP address this process is called DNS Lookup. DNS server contains the all names and it returns IP address which is sent back to the browser.
-
-Then TCP/IP socket connection is established which is a communication protocol subsequently client sends an HTTP request to the server, format of HTTP request :-
-
-1. Start line
-2. HTTP request headers are fields which describe the request.
-3. Request body which is the data we send to the server.
-
-![[BTS_web.png]]
-
-Server processes the request and sends a response which is an HTTP response which also has a format :-
-
-1. Start line
-2. HTTP response headers containing information about the response.
-3. Response body containing data we requested from the server.
-
-TCP - Transmission Control Protocol
-It divides the request/response into smaller chunks which are called packets because sending it as a single chunk is not practical as there is a severe traffic and once the data is received on the other end it puts the request together.
-
-IP - Internet Protocol
-It controls the routing of the packets and makes sure they reach their desired address. Request/response packets are sent via different routes.
