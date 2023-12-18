@@ -37,3 +37,27 @@ second is ***catch*** - Instead of providing each then with their own onReject c
 lastly ***finally*** - Above mentioned methods only run conditionally but finally executes after either of two are run and it always runs at the end.
 
 ![[finally_1.png]]
+
+## **Promise Combinators**
+
+### ***`Prmoise.all`***
+
+![[combinators_1.png]]
+
+It accepts an array of promises and runs them simultaneously and returns a promise whose fulfillment value would be an array with fulfillment values of promises passed into ***`Promise.all`***.
+
+> **NOTE** :  It will short circuit as soon as any promise rejects and it errors out.
+
+### ***`Promise.race`***
+
+![[combinators_2.png]]
+
+It accepts an array of promises and runs them simultaneously and returns a promise whose fulfillment value is earliest settled promise even if it is rejected.
+
+### ***`Promise.allSettled`***
+
+Same as ***`Promise.all`*** but does not short circuits and returns result of all promises.
+
+### ***`Promise.any`***
+
+It accepts an array of promises and runs them simultaneously and returns the first value that is fulfilled ignoring all rejections.
