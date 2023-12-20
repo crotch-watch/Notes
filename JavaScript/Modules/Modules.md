@@ -27,11 +27,23 @@ We can also **.mjs** which indicates module as an ES Module, there are other for
 
 There is no need to use the ***`defer`*** attribute ***`script`*** when loading a module script; modules are deferred automatically.
 
+## **ES Modules vs Scripts**
+
+![[ESM-vs-scripts.png]]
+
 ## **Code Execution inside modules**
 
 When a module is imported the code is executed for the first time when script is read even if we use multiple imports from this module the code would never execute again.
 
 In case of static imports this happens in first loading of script. While in dynamic imports it happens when the script is loaded dynamically and that too for the first time when script loads.
+
+![[modules_working1.png]]
+
+Import statements are hoisted and will always happen at the top of the script as we could need the imported values at the beginning of the module. Modules math.js and dom.js will be loaded in a synchronous way i.e. first math.js is executed and then dom.js.***`rand`*** method in module math is linked to the import in index.js same for the ***`showDice`*** and dom.js
+
+> **NOTE** :  This synchronous importing makes the bundling and dead code elimination possible.
+
+Once the entire file is parsed, modules are asynchronously downloaded and then synchronously imported and code inside both the modules is executed only then the index.js will start executing.
 
 ## **Module Scope and *`globalThis`***
 
@@ -50,4 +62,3 @@ when using modules instead of scripts we can use ***`await`*** at top level mean
 If we ***`await`*** an expression at top level then script execution gets blocked till the promise is resolved.
 
 > **NOTE** : If we use await in a module that exports the awaited value, any module that imports from it will have it's execution blocked as well
-
